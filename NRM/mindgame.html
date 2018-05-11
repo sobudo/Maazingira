@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/mind.js"></script>
+
+    </head/>
+
+    <body>
+
+      <div class="mainintro">
+        <div class="row">
+          <h1 class="a">Guess Who</h1>
+          <h1 class="b">Do you know your Wildlife?</h1>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">MAAZINGIRA
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Wildlife <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Page 1-1</a></li>
+                <li><a href="#">Page 1-2</a></li>
+                <li><a href="#">Page 1-3</a></li>
+              </ul>
+              <!-- </li> -->
+              <li><a href="#">Ecosystems</a></li>
+              <li><a href="#">Geography</a></li>
+              </ul>
+      </nav>
+
+
+      <h2>Mind Game: Sorting Animals</h2>
+      <p>What comes to mind when you read the words in the red boxes? Look at the animals in the blue boxes and <br>place them where you think they should be. Be careful though, as some might belong to the same box.<br> So think carefully about the words
+        before you drag and drop the animals into the box they best belong to!</p>
+
+
+      <div class="mainbody">
+        <div class="images">
+          <div class="container">
+            <div class="col-sm-6">
+              <div class="row">
+                <img src="images/croc.gif" draggable="true" ondragstart="drag(event)" id="drag1" style="width: 90px; height: 90px;">
+                <img src="images/frog.gif" draggable="true" ondragstart="drag(event)" id="drag2" style="width: 90px; height: 90px;">
+                <img src="images/shark.gif" draggable="true" ondragstart="drag(event)" id="drag4" style="width: 90px; height: 90px;"><br><br>
+                <img src="images/giraffe.gif" draggable="true" ondragstart="drag(event)" id="drag5" style="width: 90px; height: 90px;">
+                <img src="images/blueringed.gif" draggable="true" ondragstart="drag(event)" id="drag6" style="width: 90px; height: 90px;">
+                <img src="images/camel.gif" draggable="true" ondragstart="drag(event)" id="drag7" style="width: 90px; height: 90px;"><br><br>
+                <img src="images/rhino.gif" draggable="true" ondragstart="drag(event)" id="drag8" style="width: 90px; height: 90px;">
+                <img src="images/cheetah.gif" draggable="true" ondragstart="drag(event)" id="drag9" style="width: 90px; height: 90px;">
+                <img src="images/slug.gif" draggable="true" ondragstart="drag(event)" id="drag10" style="width: 90px; height: 90px;"><br><br>
+              </div>
+            </div>
+
+
+            <div class="col-sm-6">
+              <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" <p>River</p>
+              </div>
+              <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)" <p>Speed</p>
+              </div>
+              <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)" <p>Inverterbrae</p>
+              </div>
+              <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)" <p>Coral Reef</p>
+              </div>
+              <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)" <p>Savannah</p>
+              </div>
+              <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)" <p>Desert</p>
+              </div>
+              <div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)" <p>Herbivore</p>
+              </div>
+              <div id="div8" ondrop="drop(event)" ondragover="allowDrop(event)" <p>Amphibian</p>
+              </div>
+              <div id="div9" ondrop="drop(event)" ondragover="allowDrop(event)" <p>Poisonous</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </body>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-pinterest"></a>
+
+          <p> Maazingira is a subsidiary of Makuti Kids, a technology based educational programme that aims to create awareness on Natural Resource Management amongst young people.</p>
+          <p>Our Chilren are the custodians of the future, what are we leaving behind for them.</p>
+        </div>
+      </div>
+    </div>
+
+</html>

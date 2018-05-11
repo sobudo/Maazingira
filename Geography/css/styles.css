@@ -1,0 +1,104 @@
+.row {
+  padding-top: 30px;
+}
+
+p {
+  font-size: 16px;
+}
+
+h1, p {
+  text-align: center;
+}
+
+.image1 {
+  position: absolute;
+  width: 200px;
+  height: 150px;
+}
+
+#movers {
+  width: 400px;
+  height: 300px;
+  margin-left: 30px;
+}
+
+IMG.background {
+  margin-right: 0px;
+  margin-left: 0px;
+  display: block;
+  ;
+}
+
+#kangaroo {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 30px;
+}
+
+#cougar {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 200px;
+}
+
+#koala {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 350px;
+}
+
+#tasdevil {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 450px;
+}
+
+#iguana {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 550px;
+}
+
+#llama {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 650px;
+}
+
+#sloth {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 30px;
+}
+
+#macaw {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 200px;
+}
+
+#dingo {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 300px;
+}
+
+#wombat {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 400px;
+}
+
+#panther {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 500px;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

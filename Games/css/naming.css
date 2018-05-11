@@ -1,0 +1,478 @@
+.navbar {
+  margin-bottom: 0px;
+}
+
+.carousel-caption {
+  margin-top: 0px;
+  color: black;
+  font-size: 24px;
+}
+
+.mainintro {
+  background-color: #F1C40F;
+  font-size: 12px;
+}
+
+h1.b {
+  font-style: italic;
+}
+
+h1.a, h1.b {
+  font-size: 24px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+a {
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.intro {
+  margin: auto;
+  padding: 40px;
+  font-size: 14px;
+  text-align: center;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h2, p {
+  text-align: center;
+}
+
+.images {
+  /* border: 5px solid green; */
+  /* float: left; */
+  /* margin: 20px; */
+  padding: 20px;
+  height: 600px;
+  width: 400px;
+}
+
+h1, p {
+  text-align: center;
+}
+
+.image1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+#movers {
+  width: 400px;
+  height: 300px;
+  margin-left: 95px;
+}
+
+#centipede {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 30px;
+}
+
+#frog {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 150px;
+}
+
+#toad {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 300px;
+}
+
+#salamander {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 400px;
+}
+
+#happybirds1 {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 500px;
+}
+
+#hippo {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 600px;
+}
+
+#frog {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 700px;
+}
+
+#croc {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 800px;
+}
+
+#dragon {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 900px;
+}
+
+#trout {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 30px;
+}
+
+#fish2 {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 150px;
+}
+
+#crab {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 300px;
+}
+
+#frog3 {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 400px;
+}
+
+#fisheagle {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 500px;
+}
+
+#stork {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 600px;
+}
+
+#hippo2 {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 700px;
+}
+
+#logs {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 800px;
+}
+
+#perch {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 900px;
+}
+
+.images {
+  border: 5px solid green;
+  float: left;
+  margin: 20px;
+  padding: 20px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#div1 {
+  border: 5px solid red;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#div2 {
+  border: 5px solid red;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#div3 {
+  border: 5px solid red;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#div4 {
+  border: 5px solid red;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#div5 {
+  border: 5px solid red;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#div6 {
+  border: 5px solid red;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#div7 {
+  border: 5px solid red;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#div8 {
+  border: 5px solid red;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#div9 {
+  border: 5px solid red;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#div1 {
+  border: 5px solid red;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#div2 {
+  border: 5px solid red;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#div3 {
+  border: 5px solid red;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#div4 {
+  border: 5px solid red;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#div5 {
+  border: 5px solid red;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#div6 {
+  border: 5px solid red;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#div7 {
+  border: 5px solid red;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#div8 {
+  border: 5px solid red;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#div9 {
+  border: 5px solid red;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#div10 {
+  border: 5px solid red;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#div11 {
+  border: 5px solid red;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#div12 {
+  border: 5px solid red;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+.mainbody {
+  border: 1px #EAEDED;
+  margin: auto;
+  padding: 40px;
+  width: 1150px;
+  height: 700px;
+  background-color: #F2F3F4;
+  font-size: 14px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F1C40F;
+  color: black;
+  text-align: center;
+  padding: 40px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}

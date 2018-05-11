@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> </title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+
+  <body>
+    <h1> Know your Geography</h1>
+    <img src="images/world.png" alt="worldmap" class="center" style="height: 300px; width: 800px;">
+
+    <form id="quiz" name="quiz">
+
+      <p>Who leads a herd of elephants?</p>
+      <input type="radio" id="geo" name="question1" value="Matriach">Matriach<br>
+      <input type="radio" id="geo" name="question1" value="Bull elephant">Bull elephant<br>
+      <input type="radio" id="geo" name="question1" value="Adult male">Adult male<br><br>
+
+      <p> Which animal makes an annual migration through Kenya's Maasai Mara?</p>
+      <input type="radio" id="geo" name="question2" value="Zebra">Zebra<br>
+      <input type="radio" id="geo" name="question2" value="Antelope">Antelope<br>
+      <input type="radio" id="geo" name="question2" value="Wildebeest">Wildebeest<br><br>
+
+      <p> Which of these parks and/or game reserves is not in Kenya?</p>
+      <input type="radio" id="geo" name="question3" value="Amboseli National Park">Amboseli National Park<br>
+      <input type="radio" id="geo" name="question3" value="Serengeti">Serengeti<br>
+      <input type="radio" id="geo" name="question3" value="Lake Nakuru National Park">Lake Nakuru National Park<br><br>
+
+      <p> Flamingoes cannot be found on which one of these lakes?</p>
+      <input type="radio" id="geo" name="question4" value="Lake Nakuru">Lake Nakuru<br>
+      <input type="radio" id="geo" name="question4" value="Lake Bogoria">Lake Bogoria<br>
+      <input type="radio" id="geo" name="question4" value="Lake Victoria">Lake Victoria<br><br>
+
+      <p> Which is the highest mountain in Africa?</p>
+      <input type="radio" id="geo" name="question5" value="Mt Meru">Mt Meru<br>
+      <input type="radio" id="geo" name="question5" value="Mt Kilimanjaro">Mt Kilimanjaro<br>
+      <input type="radio" id="geo" name="question5" value="Mt Kenya">Mt Kenya<br><br>
+
+      <p> Which is the longest river in Kenya?</p>
+      <input type="radio" id="geo" name="question6" value="Tana River">Tana River<br>
+      <input type="radio" id="geo" name="question6" value="Ewaso Nyiro River">Ewaso Nyiro River<br>
+      <input type="radio" id="geo" name="question6" value="Athi River">Athi River<br><br>
+
+      <p> Which is the highest mountain in the world?</p>
+      <input type="radio" id="geo" name="question7" value="K2">K2<br>
+      <input type="radio" id="geo" name="question7" value="Mount Everest">Mount Everest<br>
+      <input type="radio" id="geo" name="question7" value="Mount Kilimanjaro">Mount Kilimanjaro<br><br>
+
+      <p> Which of these countries does not surround Kenya?</p>
+      <input type="radio" id="geo" name="question8" value="Rwanda">Rwanda<br>
+      <input type="radio" id="geo" name="question8" value="Uganda">Uganda<br>
+      <input type="radio" id="geo" name="question8" value="Somalia">Somalia<br><br>
+
+      <p> Which of these is the capital city of Kenya?</p>
+      <input type="radio" id="geo" name="question9" value="Nairobi">Nairobi<br>
+      <input type="radio" id="geo" name="question9" value="Kisumu">Kisumu<br>
+      <input type="radio" id="geo" name="question9" value="Mombasa">Mombasa<br><br>
+
+      <p> Which of these is not a continent?</p>
+      <input type="radio" id="geo" name="question10" value="Europe">Europe<br>
+      <input type="radio" id="geo" name="question10" value="Australia">Australia<br>
+      <input type="radio" id="geo" name="question10" value="China">China<br><br>
+
+      <p> Which of these is both a country and a continent?</p>
+      <input type="radio" id="geo" name="question11" value="Australia">Australia<br>
+      <input type="radio" id="geo" name="question11" value="Africa">Africa<br>
+      <input type="radio" id="geo" name="question11" value="Asia">Asia<br><br>
+
+      <p> France is in which continent?</p>
+      <input type="radio" id="geo" name="question12" value="Antartica">Antartica<br>
+      <input type="radio" id="geo" name="question12" value="North America">North America<br>
+      <input type="radio" id="geo" name="question12" value="Europe">Europe<br><br>
+
+      <p> India is in which continent?</p>
+      <input type="radio" id="geo" name="question13" value="Africa">Africa<br>
+      <input type="radio" id="geo" name="question13" value="South America">South America<br>
+      <input type="radio" id="geo" name="question13" value="Asia">Asia<br><br>
+
+      <p> Which is the largest desert in Africa?</p>
+      <input type="radio" id="geo" name="question14" value="Sahara desert">Sahara desert<br>
+      <input type="radio" id="geo" name="question14" value="Kalahari desert">Kalahari desert<br>
+      <input type="radio" id="geo" name="question14" value="Chalbi desert">Chalbi desert<br><br>
+
+      <p> What is a piece of land surrounded by water called?</p>
+      <input type="radio" id="geo" name="question15" value="Bay">Bay<br>
+      <input type="radio" id="geo" name="question15" value="Island">Island<br>
+      <input type="radio" id="geo" name="question15" value="Continent">Continent<br>
+
+      <input id="button" type="button" value="Submit" onclick="check()" ;>
+
+    </form>
+
+    <div id="after_submit">
+      <p id="message"></p>
+      <p id="number_correct"></p>
+    </div>
+
+  </body>
+
+</html>

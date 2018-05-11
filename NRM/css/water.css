@@ -1,0 +1,179 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.carousel-caption {
+  margin-top: 0px;
+  color: black;
+  font-size: 24px;
+}
+
+.mainintro {
+  background-color: #F1C40F;
+  font-size: 12px;
+}
+
+h1.b {
+  font-style: italic;
+}
+
+h1.a, h1.b {
+  font-size: 24px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+a {
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.column {
+  width: 350px float:left;
+}
+
+/* .water {
+  float: right;
+} */
+
+.no-wrap-text {
+  overflow: hidden;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+img.waterfall {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+p.waterfall {
+  padding-top: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+/* h1.title {
+  padding-left: 100px;
+  padding-right: 100px;
+} */
+
+p.reality {
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+}
+
+img.faucet {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainbody {
+  border: 1px #EAEDED;
+  margin: auto;
+  padding: 40px;
+  width: 1150px;
+  height: 400px;
+  background-color: #85C1E9;
+  /* background-color: #F2F3F4; */
+  font-size: 14px;
+}
+
+.mainbody2 {
+  border: 1px #EAEDED;
+  margin: auto;
+  padding: 40px;
+  width: 1150px;
+  height: 900px;
+  background-color: #F7DC6F;
+  /* background-color: #F2F3F4; */
+  font-size: 14px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F1C40F;
+  color: black;
+  text-align: center;
+  padding: 40px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
